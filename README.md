@@ -1,3 +1,4 @@
+---
 # Ahyea! Promptorama!
 
 **Ahyea! Promptorama!** is an AI-powered platform that helps users generate creative and meaningful prompts using natural language processing (NLP) models. The system supports versioning, collaboration, and multi-modal output generation using state-of-the-art AI models such as GPT-3. It also includes a comprehensive monitoring, storage, and retrieval service for managing and optimizing user interactions and prompt generations.
@@ -8,16 +9,16 @@
 - [System Architecture](#system-architecture)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Installation Instructions](Installation-Instructions.md)
+- [Usage Information](Usage-Info.md)
 - [API Endpoints](#api-endpoints)
-- [Development](#development)
+- [Development and Testing](Development--and-Testing.md)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
 
-Ahyea! Promptorama! is designed to assist users in generating customized prompts that are tailored to their individual needs. With features such as user profiling, prompt versioning, and explainable AI, this platform enables both individual users and teams to collaborate and optimize prompt generation through machine learning models and human feedback loops.
+**Ahyea! Promptorama!** is designed to assist users in generating customized prompts tailored to their individual needs. With features such as user profiling, prompt versioning, and explainable AI, this platform enables both individual users and teams to collaborate and optimize prompt generation through machine learning models and human feedback loops.
 
 The platform consists of the following components:
 - **Prompt Generation Service**: Utilizes NLP models to generate relevant and creative prompts based on user input.
@@ -62,8 +63,59 @@ graph TD
 - **Monitoring & Analytics**: ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, Grafana
 - **Authentication**: OAuth2 / JWT for secure user authentication
 
+## Installation Instructions
+
+For detailed installation steps, please refer to [Installation Instructions](Installation-Instructions.md).
+
+## Usage Information
+
+For comprehensive usage details, including how to generate prompts and manage user profiles, see [Usage Information](Usage-Info.md).
+
+## API Endpoints
+
+### Core Services
+
+- **POST /api/prompts/generate**
+  - Input: User query
+  - Output: Generated prompt based on AI model (GPT-3)
+  
+- **GET /api/prompts/search**
+  - Input: Search query
+  - Output: List of relevant prompts from the database
+
+- **POST /api/user/profile**
+  - Input: User data (preferences, settings)
+  - Output: Updated user profile
+
+### Authentication
+
+- **POST /api/auth/login**
+  - Input: User credentials
+  - Output: JWT Token
+
+- **POST /api/auth/register**
+  - Input: User data (email, password)
+  - Output: Registered user details
+
+## Development and Testing
+
+For guidance on development practices, testing strategies, and contribution details, check [Development and Testing](Development--and-Testing.md).
+
+## Contributing
+
+We welcome contributions! Follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m "Added new feature"`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
+
 ## License
 
-This project is created by Nickolas Susco II, for ahyea.com and is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+By following this guide, you’ll be able to set up and run the **Ahyea! Promptorama!** system locally or in the cloud, enabling you to explore AI-powered prompt generation and the various other features.
 
 ---
+
+Feel free to modify any sections further to better suit your project’s specifics!
