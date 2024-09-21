@@ -52,12 +52,15 @@ graph TD
 
 ## Features
 
-- **AI-Driven Prompt Generation**: Automatically generate high-quality, context-aware prompts using advanced NLP models.
-- **Prompt Storage & Retrieval**: Save, retrieve, and search for prompts using a flexible database.
-- **Personalized User Profiles**: Tailor the prompt generation process based on user preferences and interaction history.
-- **Explainable AI**: Understand how the AI-generated content is formed using explainability tools like LIME and SHAP.
-- **Version Control & Collaboration**: Collaborate on prompt generation with versioning and Git-like branching/merging functionality.
-- **Ethical AI & Bias Mitigation**: Implement bias checks and ensure responsible use of AI tools.
+| Feature                   | Description                                                              |
+|---------------------------|--------------------------------------------------------------------------|
+| AI-Driven Prompt Generation| Automatically generate high-quality, context-aware prompts using advanced NLP models. |
+| Prompt Storage & Retrieval | Save, retrieve, and search for prompts using a flexible database.       |
+| Personalized User Profiles | Tailor the prompt generation process based on user preferences and interaction history. |
+| Explainable AI            | Understand how the AI-generated content is formed using explainability tools. |
+| Version Control & Collaboration | Collaborate on prompt generation with versioning and Git-like branching/merging functionality. |
+| Ethical AI & Bias Mitigation | Implement bias checks and ensure responsible use of AI tools.        |
+
 
 ## Tech Stack
 
