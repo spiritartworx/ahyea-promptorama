@@ -1,10 +1,3 @@
----
-title: "Ahyea! Promptorama!"
-description: "An AI-powered platform for generating creative prompts."
-author: "Nickolas Susco II"
-date: "2024-09-21"
----
-
 # Ahyea! Promptorama!
 
 **Ahyea! Promptorama!** is an AI-powered platform that helps users generate creative and meaningful prompts using natural language processing (NLP) models. The system supports versioning, collaboration, and multi-modal output generation using state-of-the-art AI models such as GPT-3. It also includes a comprehensive monitoring, storage, and retrieval service for managing and optimizing user interactions and prompt generations.
@@ -123,4 +116,11 @@ We welcome contributions! Follow these steps to contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-By following this guide, you’ll be able to set up and run the **Ahyea! Promptorama!** system locally or in the cloud, enabling you to explore AI-powered prompt generation and the various other features.
+By following this guide, you’ll be able to set up and run the **Ahyea.com Promptorama!** system locally or in the cloud, enabling you to explore AI-powered prompt generation and the various other features.
+
+---
+title: "Ahyea! Promptorama!"
+description: "An AI-powered platform for generating creative prompts."
+author: "Nickolas Susco II"
+date: "2024-09-21"
+---
