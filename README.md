@@ -117,10 +117,3 @@ We welcome contributions! Follow these steps to contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 By following this guide, you’ll be able to set up and run the **Ahyea.com Promptorama!** system locally or in the cloud, enabling you to explore AI-powered prompt generation and the various other features.
-
----
-title: "Ahyea! Promptorama!"
-description: "An AI-powered platform for generating creative prompts."
-author: "Nickolas Susco II"
-date: "2024-09-21"
----
